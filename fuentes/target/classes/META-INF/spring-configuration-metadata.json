@@ -1,0 +1,42 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "pe.com.sedapal.agc.util.EmailProperties",
+      "name": "email",
+      "type": "pe.com.sedapal.agc.util.EmailProperties"
+    },
+    {
+      "sourceType": "pe.com.sedapal.agc.util.FileStorageProperties",
+      "name": "file",
+      "type": "pe.com.sedapal.agc.util.FileStorageProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "pe.com.sedapal.agc.util.EmailProperties",
+      "name": "email.host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "pe.com.sedapal.agc.util.EmailProperties",
+      "name": "email.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "pe.com.sedapal.agc.util.EmailProperties",
+      "name": "email.port",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "pe.com.sedapal.agc.util.EmailProperties",
+      "name": "email.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "pe.com.sedapal.agc.util.FileStorageProperties",
+      "name": "file.upload-dir",
+      "type": "java.lang.String"
+    }
+  ]
+}

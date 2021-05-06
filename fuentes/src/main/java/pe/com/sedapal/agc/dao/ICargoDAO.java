@@ -1,0 +1,20 @@
+package pe.com.sedapal.agc.dao;
+
+import java.util.List;
+
+import pe.com.sedapal.agc.model.Actividad;
+import pe.com.sedapal.agc.model.Cargo;
+import pe.com.sedapal.agc.model.request.CargoOpenRequest;
+import pe.com.sedapal.agc.model.response.ListaPaginada;
+
+public interface ICargoDAO {
+	
+	List<Cargo> listarCargo(String codigoTipoCargo);
+	
+	ListaPaginada<Cargo> consultarListaCargosOpen(CargoOpenRequest request);
+
+	List<Actividad> consultarActividadesDisponibles(String codCargo);
+
+	Integer actualizarActividadesCargo(Cargo cargoRequest, String usuario);
+
+}
